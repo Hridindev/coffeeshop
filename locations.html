@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locations | Brew & co</title>
+    <link rel="stylesheet" href="page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="cofeecup.png">
+</head>
+<body>
+
+    <header class="header">
+    <h1><a href="index.html">Brew<span>&</span>co</a></h1>
+    <aside>
+        <nav id="side-navbar">
+            <ul class="nav-links">
+                <li><a href="index.html#menu">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <button onclick="closeSideBar()" id="closeButton" class="closeBtn">X</button>
+        </nav>
+        <button class="nav-btn-menu" onclick="openSidebar()">
+            <img src="menu.png" alt="menubar">
+        </button>
+        <button class="order-btn">order now</button>
+    </aside>
+</header>
+
+    <section class="page-hero">
+        <div class="wrap">
+            <div class="crumbs"><a href="index.html">Home</a> / Locations</div>
+            <span class="eyebrow">Visit Us</span>
+            <h1>Our <em>Cafés</em></h1>
+            <p>Find your nearest Brew&Co location for fresh coffee and quiet seating.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="wrap">
+            <div class="loc-grid">
+                <div class="loc-card">
+                    <div class="loc-top">
+                        <h3>The Roastery</h3>
+                    </div>
+                    <div class="loc-body">
+                        <div class="loc-row"><b>Address</b> 12 Roast St, Old Town</div>
+                        <div class="loc-row"><b>Hours</b> Mon–Fri 7:00 – 20:00</div>
+                    </div>
+                </div>
+
+                <div class="loc-card">
+                    <div class="loc-top">
+                        <h3>Market Square</h3>
+                    </div>
+                    <div class="loc-body">
+                        <div class="loc-row"><b>Address</b> 48 Market Sq, City Centre</div>
+                        <div class="loc-row"><b>Hours</b> Mon–Fri 7:00 – 20:00</div>
+                    </div>
+                </div>
+
+                <div class="loc-card">
+                    <div class="loc-top">
+                        <h3>Riverside</h3>
+                    </div>
+                    <div class="loc-body">
+                        <div class="loc-row"><b>Address</b> 5 Riverside Walk, Harbour</div>
+                        <div class="loc-row"><b>Hours</b> Mon–Fri 7:00 – 20:00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <h2 class="footer-logo">Brew<span>&</span>co</h2>
+            <p>© 2026 Brew&Co. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

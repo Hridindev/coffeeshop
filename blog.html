@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Brew & co</title>
+    <link rel="stylesheet" href="page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="cofeecup.png">
+</head>
+<body>
+
+   <header class="header">
+    <h1><a href="index.html">Brew<span>&</span>co</a></h1>
+    <aside>
+        <nav id="side-navbar">
+            <ul class="nav-links">
+                <li><a href="index.html#menu">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <button onclick="closeSideBar()" id="closeButton" class="closeBtn">X</button>
+        </nav>
+        <button class="nav-btn-menu" onclick="openSidebar()">
+            <img src="menu.png" alt="menubar">
+        </button>
+        <button class="order-btn">order now</button>
+    </aside>
+</header>
+
+    <section class="page-hero">
+        <div class="wrap">
+            <div class="crumbs"><a href="index.html">Home</a> / Blog</div>
+            <span class="eyebrow">The Journal</span>
+            <h1>Roastery <em>Stories</em></h1>
+            <p>Brewing guides, bean origins, and updates from our roasters.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="wrap">
+            <div class="post-grid">
+                <div class="post">
+                    <span class="meta">Brewing · 5 Min Read</span>
+                    <h3>Understanding Roast Levels</h3>
+                    <p>How light, medium, and dark roasts affect the natural flavor notes of coffee beans.</p>
+                </div>
+                <div class="post">
+                    <span class="meta">Origins · 4 Min Read</span>
+                    <h3>Visiting Colombian Farms</h3>
+                    <p>A look into the harvest process behind our signature single-origin espresso.</p>
+                </div>
+                <div class="post">
+                    <span class="meta">Guide · 3 Min Read</span>
+                    <h3>5 Tips for Better Pour-Over</h3>
+                    <p>Mastering water temperature, grind size, and bloom timing at home.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <h2 class="footer-logo">Brew<span>&</span>co</h2>
+            <p>© 2026 Brew&Co. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

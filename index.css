@@ -22,26 +22,24 @@ body {
 /* ==========================================
    HEADER SECTION (BASE / MOBILE)
    ========================================== */
+
+/* Header & Navigation Fixes */
 .header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    width: 100%;
     display: flex;
-    align-items: center;
-    background-color: var(--top-bottom-color);
     justify-content: space-between;
-    padding: 15px 20px;
-    border-bottom: 3px solid var(--primary-color);
-    transition: all 0.3s ease;
+    align-items: center;
+    padding: 20px 24px;
+    max-width: 1140px;
+    margin: 0 auto;
+    background: transparent;
 }
 
-.header h1 {
-    font-size: 1.4rem;
-    font-family: "Playfair Display", serif;
-    font-weight: 700;
+.header h1 a {
     color: var(--primary-color);
-    line-height: 1;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.8rem;
 }
 
 .header h1 span {
@@ -51,7 +49,7 @@ body {
 .header aside {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 /* Hidden by default on mobile screens */
