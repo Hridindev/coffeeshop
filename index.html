@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brev & co</title>
+    <link rel="stylesheet" href="index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="cofeecup.png">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Brew<span>&</span>co</h1>
+        <aside>
+            <nav id="side-navbar">
+                <ul class="nav-links">
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <button onclick="closeSideBar()" id="closeButton" class="closeBtn">X</button>
+
+            </nav>
+
+            <button class="nav-btn-menu" onclick="openSidebar()">
+                <img src="menu.png" alt="menubar">
+            </button>
+
+            <button class="order-btn">order now</button>
+        </aside>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <div class="tagline-wrapper">
+                <span class="tagline">Est. 2010 · Artisan Coffee</span>
+            </div>
+            <h1 class="highlight-text">Life is too short for <span> bad coffee</span></h1>
+            <div class="sub-text">
+                <p>
+                    Hand-picked beans from ethical farms across Ethiopia, Colombia, and Guatemala — roasted fresh every
+                    morning in our micro-roastery.
+                </p>
+                <div class="buttons">
+                    <button id="button1">Explore menu</button>
+                    <button id="button2">Our story</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-graphic">
+            <div class="round1">
+
+            </div>
+
+            <div class="coffee-cup">
+                <img class="coffee-img" src="cofeecup.png" alt="cofeecup">
+            </div>
+
+            <div class="signature-badge">
+                <h2>24+</h2>
+                <span>Signature Blends</span>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="menu">
+        <div class="menu-header">
+            <h2 class="menu-title">Today's Specials</h2>
+            <a href="#" class="view-menu-link">View Full Menu </a>
+        </div>
+
+        <div class="menu-grid">
+            <div class="menu-card">
+                <img src="cofeecup.png" alt="Velvet Espresso" class="menu-icon">
+                <h3 class="item-name">Velvet Espresso</h3>
+                <p class="item-desc">Double shot with silky microfoam, caramel undertones and a rich crema finish.</p>
+                <span class="item-price">$4.50</span>
+            </div>
+
+            <div class="menu-card">
+                <img src="coldcofee.png" alt="Cold Brew Nitro" class="menu-icon">
+                <h3 class="item-name">Cold Brew Nitro</h3>
+                <p class="item-desc">18-hour steeped cold brew infused with nitrogen for a creamy, smooth texture.</p>
+                <span class="item-price">$6.00</span>
+            </div>
+
+            <div class="menu-card">
+                <img src="milkcofee.png" alt="Matcha Latte" class="menu-icon">
+                <h3 class="item-name">Matcha Latte</h3>
+                <p class="item-desc">Ceremonial grade Japanese matcha whisked with oat milk and a hint of vanilla.</p>
+                <span class="item-price">$5.50</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote-section">
+        <div class="quote-container">
+            <div class="quote-block">
+                <div class="quote-icon"></div>
+                <p class="quote-text">The best morning ritual I've ever had. Walking in here feels like coming home the
+                    aroma alone is worth the trip.</p>
+                <p class="quote-author"> MARIA SANTANA, REGULAR SINCE 2015</p>
+            </div>
+
+            <div class="hours-block">
+                <h3 class="hours-title">Opening Hours</h3>
+                <ul class="hours-list">
+                    <li><span class="day">Monday Friday</span> <span class="time">7:00 20:00</span></li>
+                    <li><span class="day">Saturday</span> <span class="time">8:00 21:00</span></li>
+                    <li><span class="day">Sunday</span> <span class="time">9:00 18:00</span></li>
+                    <li><span class="day">Public Holidays</span> <span class="time">10:00 16:00</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <h2 class="footer-logo">Brew<span>&</span>co</h2>
+            <p class="footer-copy"> 2026 Brew&Co. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-box">ig</a>
+                <a href="#" class="social-box">tw</a>
+                <a href="#" class="social-box">fb</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index..js"></script>
+</body>
+</body>
+
+</html>
